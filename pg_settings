@@ -1,4 +1,4 @@
-SELECT name, setting
+SELECT name, setting, unit
 FROM pg_settings
 WHERE name IN (
     'autoprepare_for_protocol',
